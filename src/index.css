@@ -1,0 +1,122 @@
+/* Timer Container */
+.timer-container {
+  background-color: #1a1a1a;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  height: 100vh;
+  padding-top: 100px;
+}
+
+/* Navbar */
+.navbar {
+  width: 100%;
+  background-color: #333;
+  padding: 15px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar-brand {
+  color: white;
+  font-size: 24px;
+  text-decoration: none;
+}
+
+.navbar-nav button {
+  background-color: #007bff;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  margin: 0 10px;
+  cursor: pointer;
+}
+
+.navbar-nav button:hover {
+  background-color: #0056b3;
+}
+
+/* Content */
+.content {
+  text-align: center;
+  margin-top: 80px;
+}
+
+.content img {
+  height: 120px;
+  margin-bottom: 20px;
+}
+
+.time-selector {
+  background-color: white;
+  padding: 15px;
+  border-radius: 10px;
+  display: inline-flex;
+  gap: 10px;
+}
+
+.time-selector select {
+  padding: 5px;
+  font-size: 18px;
+}
+
+/* Timer Display */
+.timer-display {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  font-size: 48px;
+  font-weight: bold;
+}
+
+.timer-display span {
+  font-size: 48px;
+  margin: 0 10px;
+}
+
+/* Scrolling Digits */
+.digit-display {
+  display: flex;
+  gap: 10px;
+}
+
+.digit-box {
+  width: 50px;
+  height: 70px;
+  background-color: #333;
+  border-radius: 10px;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.scrolling-digit {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  transition: transform 0.5s ease-in-out;
+}
+
+.scroll {
+  transform: translateY(-100%);
+}
+
+.digit {
+  font-size: 32px;
+  color: white;
+  line-height: 1.5;
+}
+
+h2 {
+  color: red;
+  font-size: 32px;
+  font-weight: bold;
+}
