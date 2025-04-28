@@ -96,7 +96,7 @@ const HackathonTimer = () => {
           sx={{
             height: '100%',
             width: '100%',
-            backgroundColor: '#121212',
+            backgroundColor: '#00000',
             display: 'flex',
             flexDirection: 'column',
             alignItems: 'center',
